@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC);
+@import url(http://fonts.googleapis.com/css?family=Kameron);
+body {
+  text-align: center;
+  background: url("../images/old-paper.jpg");
+  font-family: 'Kameron', serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'IM Fell DW Pica SC', serif;
+}
+
+h2.theatre {
+  text-align: center;
+  border-bottom: 1px dashed #330000;
+  margin: 20px 0;
+  padding-bottom: 10px;
+  font-size: 160%;
+}
+
+p {
+  color: #444444;
+  text-shadow: 1px 1px #eee;
+  line-height: 26px;
+}
+
+div.clear {
+  clear: both;
+}
+
+div.wrapper {
+  position: relative;
+  margin: 20px auto;
+  text-align: left;
+  width: 920px;
+  background: url("../images/bg.png");
+  padding: 40px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+div.header ul {
+  margin: 10px 0 50px 0;
+  padding: 0;
+  text-align: center;
+}
+
+div.header li {
+  display: inline;
+  list-style: none;
+  margin: 0 5px;
+}
+
+div.header a {
+  padding: 6px 8px;
+  border: 1px solid #500;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #cccc99;
+  background: #330000;
+  font-size: 110%;
+}
+
+div.header a:visited {
+  color: #cccc99;
+}
+
+div.img_container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+div.image {
+  max-width: 300px;
+  display: inline;
+  margin-right: 10px;
+}
+
+div.image img {
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+div.description {
+  display: inline;
+  width: 430px;
+  float: left;
+}
+
+div.film_img {
+  display: inline;
+  width: 440px;
+  padding-left: 40px;
+}
+
+div.film_img img, div.film_img iframe {
+  margin-top: 40px;
+}
+
+div.info {
+  width: 400px;
+  float: left;
+}
+
+div.media {
+  float: left;
+  width: 500px;
+  text-align: center;
+}
+
+div.media img {
+  border-radius: 4px;
+  margin-left: 10px;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
